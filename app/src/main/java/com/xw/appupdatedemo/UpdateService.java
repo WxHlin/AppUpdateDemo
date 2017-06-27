@@ -73,11 +73,6 @@ public class UpdateService extends Service{
                 stopSelf();
             }
 
-//            @Override
-//            public void onFinished(float completeSize, String downloadUrl) {
-//
-//            }
-
             @Override
             public void onFailure() {
                 Log.e("tag", "onFailure()");
